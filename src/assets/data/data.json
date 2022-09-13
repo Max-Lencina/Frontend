@@ -1,13 +1,20 @@
+  
 {
 
  "nombre": "Maximiliano Lencina",
  "titulo": "Full Stack Developer Junior",
- "AcercaDeMi": "Acerca de mí",
+ "acercaDeMi":"Acerca de mí",
  "Experiencia": "Experiencia",
  "Educacion":"Educación",
  "skills":"Hard & Soft Skills",
  "Proyectos":"Proyectos"
+
+ }
+ 
+   
+
+
   
-}
+
 
 
