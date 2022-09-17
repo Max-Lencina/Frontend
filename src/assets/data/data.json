@@ -3,12 +3,9 @@
 
  "nombre": "Maximiliano Lencina",
  "titulo": "Full Stack Developer Junior",
- "acercaDeMi":"Acerca de mí",
- "Experiencia": "Experiencia",
- "Educacion":"Educación",
- "skills":"Hard & Soft Skills",
- "Proyectos":"Proyectos"
-
+ "perfil":"assets/img/perfil.jpg",
+ "portada":"assets/img/portada.jpg"
+ 
  }
  
    
