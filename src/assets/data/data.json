@@ -12,15 +12,82 @@
  "portada":"assets/img/portada.jpg",
 
  "Acerca":"Acerca de mí",
+ "Acerca1":"Soy de Paraná, Entre Ríos, Argentina.",
+ "Acerca2":"Me considero una persona responsable, ordenada, creativa, de rápido aprendizaje y con muchas ganas de progresar.",
+ "Acerca3":"Actualmente estoy en busca de un trabajo donde pueda ampliar mis conocimientos de programación.",
 
  "Exp":"Experiencia",
+ "Exp1":"Profesor particular en las materias Matemática (nivel secundario) y física (nivel secundario) desde el año 2010 hasta el 2019.",
+ "Exp2":"Cajero en mini mercado La Argentina desde el año 2004 hasta el 2009.",
 
  "Edu":"Educación",
+ "nombreEdu":"Argentina programa",
+ "imgEdu":"assets/img/argentina-programa.jpg",
+ "descrEdu":"Segunda etapa #YoProgramo",   
+
+ "nombreEdu2":"Educ.ar",
+ "imgEdu2":"assets/img/educar.jpg",
+ "descrEdu2":"Seguridad informática",
+
+ "nombreEdu3":"Educ.ar",
+ "imgEdu3":"assets/img/educar.jpg",
+ "descrEdu3":"Reparación y mantenimiento de nuestra computadora personal",
+
+ "nombreEdu4":"Argentina programa",
+ "imgEdu4":"assets/img/argentina-programa.jpg",
+ "descrEdu4":"Primera etapa #SéProgramar",
+
+ "nombreEdu5":"Educ.ar",
+ "imgEdu5":"assets/img/educar.jpg",
+ "descrEdu5":"Introducción al Stop Motion",
+
+ "nombreEdu6":"Escuela de educación técnica Nº5 Malvinas Argentinas",
+ "imgEdu6":"assets/img/eetn5.jpg",
+ "descrEdu6":"Electrotécnico con orientación electrónica industrial",
+
+ "nombreEdu7":"Escuela privada  Nº 20 Ceferino Namuncura",
+ "imgEdu7":"assets/img/ceferino.jpg",
+ "descrEdu7":"",
+ 
 
  "Skills":"Hard & Soft Skills",
+ "skill1":"Ingles",
+ "skill1porc":"50%",
+ "skill2":"HTML",
+ "skill2porc":"80%",
+ "skill3":"CSS",
+ "skill3porc":"80%",
+ "skill4":"Bootstrap",
+ "skill4porc":"90%",
+ "skill5":"Javascript",
+ "skill5porc":"50%",
+ "skill6":"TypeScript",
+ "skill6porc":"50%",
+ "skill7":"Git/Github",
+ "skill7porc":"90%",
+ "skill8":"Angular",
+ "skill8porc":"40%",
+ "skill9":"Creatividad",
+ "skill9porc":"90%",
+ "skill10":"Puntualidad",
+ "skill10porc":"90%",
+ "skill11":"Gestión del tiempo",
+ "skill11porc":"80%",
+ "skill12":"Adaptabilidad",
+ "skill12porc":"70%",
+ "skill13":"Atención al detalle",
+ "skill13porc":"90%",
+ "skill14":"Trabajo en equipo",
+ "skill14porc":"75%",
+ "skill15":"Liderazgo",
+ "skill15porc":"50%",
+ "skill16":"Solución de problemas",
+ "skill16porc":"70%",
+ 
 
  "Proy":"Proyectos",
  "NombrePro":"Portfolio Web",
+ "fechaProy":"Fecha de realización: Junio 2022 - Enero 2023",
  "imgPro":"assets/img/portfolioCompleto.jpg"
 
  
