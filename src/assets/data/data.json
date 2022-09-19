@@ -1,12 +1,31 @@
-  
 {
+ "argproNav":"assets/img/argentina-programa.jpg",
+ "argprograma":" Argentina programa",
+ "yopro":"#YoProgramo",
+ "linkNav":"assets/img/linkedin-icon.png",
+ "gitNav":"assets/img/github-icon.png",
+ "instNav":"assets/img/instagram-icon.png",
 
  "nombre": "Maximiliano Lencina",
  "titulo": "Full Stack Developer Junior",
  "perfil":"assets/img/perfil.jpg",
- "portada":"assets/img/portada.jpg"
+ "portada":"assets/img/portada.jpg",
+
+ "Acerca":"Acerca de mí",
+
+ "Exp":"Experiencia",
+
+ "Edu":"Educación",
+
+ "Skills":"Hard & Soft Skills",
+
+ "Proy":"Proyectos",
+ "NombrePro":"Portfolio Web",
+ "imgPro":"assets/img/portfolioCompleto.jpg"
+
  
- }
+}
+
  
    
 
