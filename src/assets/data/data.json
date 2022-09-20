@@ -5,6 +5,11 @@
  "linkNav":"assets/img/linkedin-icon.png",
  "gitNav":"assets/img/github-icon.png",
  "instNav":"assets/img/instagram-icon.png",
+ "acceso":"Acceso al Portfolio",
+ "usuario":"Usuario",
+ "pass":"Password",
+ "acept":"Aceptar",
+
 
  "nombre": "Maximiliano Lencina",
  "titulo": "Full Stack Developer Junior",
@@ -106,7 +111,8 @@
  "Proy":"Proyectos",
  "NombrePro":"Portfolio Web",
  "fechaProy":"Fecha de realización: Junio 2022 - Enero 2023",
- "imgPro":"assets/img/portfolioCompleto.jpg"
+ "imgPro":"assets/img/portfolioCompleto.jpg",
+ "mail":""
 
  
 }

@@ -30,7 +30,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Acceso al Portfolio</h5>
+          <h5 class="modal-title" id="exampleModalLabel">{{miPortfolio.acceso}}</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
        </div>
         <div class="modal-body">
@@ -38,17 +38,17 @@
             <div class="input-group mb-3">
               <div class="form-floating">
                 <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
-                <label for="floatingInputGroup1">Usuario</label>
+                <label for="floatingInputGroup1">{{miPortfolio.usuario}}</label>
               </div>
             </div>
             <div class="form-floating">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-              <label for="floatingPassword">Password</label>
+              <label for="floatingPassword">{{miPortfolio.pass}}</label>
             </div>
           </form>
         </div>
         <div class="modal-footer">
-         <button type="button" class="btn btn-success">Aceptar</button>
+         <button type="button" class="btn btn-success">{{miPortfolio.acept}}</button>
         </div>
       </div>
     </div>
