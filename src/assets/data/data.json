@@ -19,35 +19,53 @@
  "Exp":"Experiencia",
  "Exp1":"Profesor particular en las materias Matemática (nivel secundario) y física (nivel secundario) desde el año 2010 hasta el 2019.",
  "Exp2":"Cajero en mini mercado La Argentina desde el año 2004 hasta el 2009.",
+ 
 
  "Edu":"Educación",
  "nombreEdu":"Argentina programa",
  "imgEdu":"assets/img/argentina-programa.jpg",
  "descrEdu":"Segunda etapa #YoProgramo",   
+ "fechaedu":"Fecha de realización: Junio 2022 - Enero 2023",
+ "cargaEdu":"Carga horaria: aproximadamente 480 horas",
+ "modEdu":"Modalidad: En línea / virtual",
 
  "nombreEdu2":"Educ.ar",
  "imgEdu2":"assets/img/educar.jpg",
  "descrEdu2":"Seguridad informática",
+ "fechaedu2":"Fecha de realización: Septiembre 2022 - Octubre 2022",
+ "cargaEdu2":"Carga horaria: aproximadamente 10 horas",
+ "modEdu2":"Modalidad: En línea / virtual",
 
  "nombreEdu3":"Educ.ar",
  "imgEdu3":"assets/img/educar.jpg",
  "descrEdu3":"Reparación y mantenimiento de nuestra computadora personal",
+ "fechaedu3":"Fecha de realización: Agosto 2022 - Septiembre 2022",
+ "cargaEdu3":"Carga horaria: aproximadamente 12 horas",
+ "modEdu3":"Modalidad: En línea / virtual",
 
  "nombreEdu4":"Argentina programa",
  "imgEdu4":"assets/img/argentina-programa.jpg",
  "descrEdu4":"Primera etapa #SéProgramar",
+ "fechaedu4":"Fecha de realización: febrero 2022 - Abril 2022",
+ "cargaEdu4":"Carga horaria: aproximadamente 60 horas",
+ "modEdu4":"Modalidad: En línea / virtual",
 
  "nombreEdu5":"Educ.ar",
  "imgEdu5":"assets/img/educar.jpg",
  "descrEdu5":"Introducción al Stop Motion",
+ "fechaedu5":"Fecha de realización: Noviembre 2020 - Diciembre 2020",
+ "cargaEdu5":"Carga horaria: aproximadamente 12 horas",
+ "modEdu5":"Modalidad: En línea / virtual",
 
  "nombreEdu6":"Escuela de educación técnica Nº5 Malvinas Argentinas",
  "imgEdu6":"assets/img/eetn5.jpg",
  "descrEdu6":"Electrotécnico con orientación electrónica industrial",
+ "fechaedu6":"Fecha de realización: Marzo 1998 - Diciembre 2003",
 
  "nombreEdu7":"Escuela privada  Nº 20 Ceferino Namuncura",
  "imgEdu7":"assets/img/ceferino.jpg",
  "descrEdu7":"",
+ "fechaedu7":"Fecha de realización: Marzo 1990 - Noviembre 1997",
  
 
  "Skills":"Hard & Soft Skills",
