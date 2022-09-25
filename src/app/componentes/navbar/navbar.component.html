@@ -1,22 +1,22 @@
 <nav class="navbar sticky-top border border-dark border-3 bg-success">
   <div class="container-fluid">
-    <a class="navbar-brand" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa">
+    <a class="navbar-brand" [href]="miPortfolio.linkArg">
         <img [src]="miPortfolio.argproNav" alt="" width="56" height="30" class="d-inline-block align-text-top">
       <b>{{miPortfolio.argprograma}}</b>
     </a>
-      <a class="navbar-brand" href="https://www.argentina.gob.ar/produccion/argentina-programa/segunda-etapa">
+      <a class="navbar-brand" [href]="miPortfolio.linkyopro">
       <b>{{miPortfolio.yopro}}</b>
     </a>
 
-      <a class="navbar-brand" href="https://www.linkedin.com/in/maximiliano--lencina/">
+      <a class="navbar-brand" [href]="miPortfolio.linklinke">
         <img [src]="miPortfolio.linkNav" alt="" width="44" height="44" class="d-inline-block align-text-top">
       </a>
 
-      <a class="navbar-brand" href="https://github.com/Max-Lencina">
+      <a class="navbar-brand" [href]="miPortfolio.linkgit">
         <img [src]="miPortfolio.gitNav" alt="" width="37" height="37" class="d-inline-block align-text-top">
       </a>
     
-      <a class="navbar-brand" href="https://www.instagram.com/max_lencina/">
+      <a class="navbar-brand" [href]="miPortfolio.linkinsta">
         <img [src]="miPortfolio.instNav" alt="" width="51" height="51" class="d-inline-block align-text-top">
       </a>
     
