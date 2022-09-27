@@ -29,7 +29,9 @@
 
  "Exp":"Experiencia",
  "Exp1":"Profesor particular en las materias Matemática (nivel secundario) y física (nivel secundario) desde el año 2010 hasta el 2019.",
- "Exp2":"Cajero en mini mercado La Argentina desde el año 2004 hasta el 2009.",
+ "Exp2":"Cajero en mini mercado  ",
+ "Exp3":"La Argentina",
+ "Exp4":" desde el año 2004 hasta el 2009.",
  
 
  "Edu":"Educación",
@@ -38,7 +40,7 @@
  "descrEdu":"Segunda etapa #YoProgramo",
  "dEdu":"Descripción: La segunda etapa de Argentina Programa permite profundizar los conocimientos y adquirir las habilidades y herramientas necesarias para convertirse en un ",
  "dEdu1":"programador web full-stack junior",   
- "cont":"Contenidos aprendidos: Scrum, Git/Github, HTML, CSS, Bootstrap, Javascript, Typescript, Angular, MySQL, Java, SpringBoot.",
+ "cont":"Contenidos aprendidos: Scrum, Git/Github, HTML, CSS, Bootstrap, JavaScript, Typescript, Angular, MySQL, Java, Spring Boot.",
  "fechaedu":"Fecha de realización: Junio 2022 - Enero 2023",
  "cargaEdu":"Carga horaria: aproximadamente 480 horas",
  "modEdu":"Modalidad: En línea / virtual",
