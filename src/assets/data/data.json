@@ -45,6 +45,15 @@
  "cargaEdu":"Carga horaria: aproximadamente 480 horas",
  "modEdu":"Modalidad: En línea / virtual",
 
+ "nombreEdu1":"Portal empleo",
+ "imgEdu1":"assets/img/Portal empleo.jpg",
+ "descrEdu1":"Habilidades digitales para la inclusión laboral",
+ "dEdu0":"Descripción: Este curso es dirigido a interesados en adquirir una formación básica para el conocimiento y uso de procesador de texto, planilla de cálculo, diseño de presentaciones, videoconferencias y para el diseño de sitios de internet, utilizando los lenguajes más frecuentes en el mercado laboral.",
+ "cont1":"Contenidos aprendidos: Microsoft Excel, Microsoft Word, Microsoft Power Point, Microsoft Teams, Visual Studio Code, HTML, CSS, JavaScript.",
+ "fechaedu1":"Fecha de realización: Septiembre 2022 - Noviembre 2022",
+ "cargaEdu1":"Carga horaria: aproximadamente 32 horas",
+ "modEdu1":"Modalidad: En línea / virtual",
+
  "nombreEdu2":"Educ.ar",
  "imgEdu2":"assets/img/educar.jpg",
  "descrEdu2":"Seguridad informática",
