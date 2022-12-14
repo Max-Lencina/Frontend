@@ -35,6 +35,16 @@
  
 
  "Edu":"Educación",
+
+ "nombreEdu8":"Centro Universitario de Idiomas (CUI)",
+ "imgEdu8":"assets/img/CUI.jpg",
+ "descrEdu8":"Curso de inglés con orientación en programación",
+ "dEdu8":"Descripción: Curso dirigido para los que esten cursando la segunda etapa de Argentina Programa, se realiza a través de la Plataforma CUI Online y brinda la posibilidad de acceder a contenidos curriculares y a actividades que abordan aspectos relevantes vinculados al rubro de la programación",   
+ "cont8":"Contenidos aprendidos: comprensión lectora y auditiva y producción escrita y oral",
+ "fechaedu8":"Fecha de realización: Diciembre 2022 - Enero 2023",
+ "cargaEdu8":"Carga horaria: aproximadamente 80 horas",
+ "modEdu8":"Modalidad: En línea / virtual",
+
  "nombreEdu":"Argentina programa",
  "imgEdu":"assets/img/argentina-programa.jpg",
  "descrEdu":"Segunda etapa #YoProgramo",
@@ -104,7 +114,7 @@
 
  "Skills":"Hard & Soft Skills",
  "skill1":"Ingles",
- "skill1porc":"50%",
+ "skill1porc":"70%",
  "skill2":"HTML",
  "skill2porc":"80%",
  "skill3":"CSS",
