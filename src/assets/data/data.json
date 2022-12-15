@@ -38,7 +38,7 @@
 
  "nombreEdu8":"Centro Universitario de Idiomas (CUI)",
  "imgEdu8":"assets/img/CUI.jpg",
- "descrEdu8":"Curso de inglés con orientación en programación",
+ "descrEdu8":"Curso de inglés con orientación en programación (Nivel pre-intermedio)",
  "dEdu8":"Descripción: Curso dirigido para los que esten cursando la segunda etapa de Argentina Programa, se realiza a través de la Plataforma CUI Online y brinda la posibilidad de acceder a contenidos curriculares y a actividades que abordan aspectos relevantes vinculados al rubro de la programación",   
  "cont8":"Contenidos aprendidos: comprensión lectora y auditiva y producción escrita y oral.",
  "fechaedu8":"Fecha de realización: Diciembre 2022 - Enero 2023",
@@ -113,7 +113,7 @@
  
 
  "Skills":"Hard & Soft Skills",
- "skill1":"Ingles",
+ "skill1":"Inglés",
  "skill1porc":"70%",
  "skill2":"HTML",
  "skill2porc":"80%",
@@ -131,6 +131,10 @@
  "skill8porc":"80%",
  "skill17":"MySQL",
  "skill17porc":"75%",
+ "skill18":"Java",
+ "skill18porc":"70%",
+ "skill19":"Spring Boot",
+ "skill19porc":"70%",
  "skill9":"Creatividad",
  "skill9porc":"90%",
  "skill10":"Puntualidad",
@@ -146,7 +150,14 @@
  "skill15":"Liderazgo",
  "skill15porc":"50%",
  "skill16":"Solución de problemas",
- "skill16porc":"70%",
+ "skill16porc":"80%",
+ "skill20":"Pensamiento crítico",
+ "skill20porc":"70%",
+ "skill21":"Cooperación",
+ "skill21porc":"80%",
+ "skill22":"Flexibilidad",
+ "skill22porc":"80%",
+
  
 
  "Proy":"Proyectos",
