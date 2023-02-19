@@ -1,161 +1,34 @@
 <div class="alert alert-success border border-dark border-3 rounded-4" role="alert">
+  <h2>Educación</h2>
+  
+  <div class="col-lg-2">
+      <button type="button" class="btn btn-success" routerLink="/nuevaedu" *ngIf="isLogged">
+          <i class="bi bi-file-earmark-plus-fill"></i>
+      </button>
+  </div>
 
-    <h2>{{miPortfolio.Edu}}</h2>
+  <div class="col lg 1"></div>
+  <div class="col-lg-11">
+      <table class="table">
+          <tbody>
+              <tr *ngFor="let Educacion of educacion">
+                  
+                      <h3>{{Educacion.nombreE}}</h3>
+                  
 
-    <div class="container px-0 text-right">
-      <div class="row justify-content-md-right">
-        <div class="col-md-auto">
-          <h3>{{miPortfolio.nombreEdu8}}</h3>
-        </div>
-        <div class="col-md-auto">
-          <img [src]="miPortfolio.imgEdu8" width="280" height="45">
-        </div>
-      </div>
-      </div>
-      
-      <p>{{miPortfolio.descrEdu8}}<br>
-         {{miPortfolio.fechaedu8}}<br>
-         {{miPortfolio.dEdu8}}.<br>
-         {{miPortfolio.cont8}}<br>
-         {{miPortfolio.cargaEdu8}}<br>
-         {{miPortfolio.modEdu8}}</p>
-    
-    <div class="container px-0 text-right">
-    <div class="row justify-content-md-right">
-      <div class="col-md-auto">
-        <h3>{{miPortfolio.nombreEdu}}</h3>
-      </div>
-      <div class="col-md-auto">
-        <img [src]="miPortfolio.imgEdu" width="50" height="35">
-      </div>
-    </div>
-    </div>
-    
-    <p>{{miPortfolio.descrEdu}}<br>
-       {{miPortfolio.fechaedu}}<br>
-       {{miPortfolio.dEdu}}<b>{{miPortfolio.dEdu1}}</b>.<br>
-       {{miPortfolio.cont}}<br>
-       {{miPortfolio.cargaEdu}}<br>
-       {{miPortfolio.modEdu}}</p>
+                  <p>{{Educacion.descripcionE}}</p>
 
-       <div class="container px-0 text-right">
-        <div class="row justify-content-md-right">
-          <div class="col-md-auto">
-            <h3>{{miPortfolio.nombreEdu1}}</h3>
-          </div>
-          <div class="col-md-auto">
-            <img [src]="miPortfolio.imgEdu1" width="90" height="35">
-          </div>
-        </div>
-        </div>
-        
-        <p>{{miPortfolio.descrEdu1}}<br>
-           {{miPortfolio.fechaedu1}}<br>
-           {{miPortfolio.dEdu0}}<br>
-           {{miPortfolio.cont1}}<br>
-           {{miPortfolio.cargaEdu1}}<br>
-           {{miPortfolio.modEdu1}}</p>
+                  <td *ngIf="isLogged">
+                          <button class="btn btn-success" routerLink="/editedu/{{Educacion.id}}">
+                          <i class="bi bi-pencil-fill"></i></button>
+                  </td>
+                  <td *ngIf="isLogged">
+                      <button class="btn btn-success" (click)="delete(Educacion.id)">
+                          <i class="bi bi-trash-fill"></i></button>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
 
-       <div class="container px-0 text-right">
-        <div class="row justify-content-md-right">
-          <div class="col-md-auto">
-            <h3>{{miPortfolio.nombreEdu2}}</h3>
-          </div>
-          <div class="col-md-auto">
-            <img [src]="miPortfolio.imgEdu2" width="60" height="35">
-          </div>
-        </div>
-      </div>
-      
-      <p>{{miPortfolio.descrEdu2}}<br>
-         {{miPortfolio.fechaedu2}}<br>
-         {{miPortfolio.dEdu2}}<br>
-         {{miPortfolio.cont2}}<br>
-         {{miPortfolio.cargaEdu2}}<br>
-         {{miPortfolio.modEdu2}}</p>
-    
-    <div class="container px-0 text-right">
-      <div class="row justify-content-md-right">
-        <div class="col-md-auto">
-          <h3>{{miPortfolio.nombreEdu3}}</h3>
-        </div>
-        <div class="col-md-auto">
-          <img [src]="miPortfolio.imgEdu3" width="60" height="35">
-        </div>
-      </div>
-    </div>
-
-    <p>{{miPortfolio.descrEdu3}}<br>
-       {{miPortfolio.fechaedu3}}<br>
-       {{miPortfolio.dEdu3}} <br>
-       {{miPortfolio.cont3}}<br>
-       {{miPortfolio.cargaEdu3}}<br>
-       {{miPortfolio.modEdu3}}</p>
-    
-    <div class="container px-0 text-right">
-      <div class="row justify-content-md-right">
-        <div class="col-md-auto">
-          <h3>{{miPortfolio.nombreEdu4}}</h3>
-        </div>
-        <div class="col-md-auto">
-          <img [src]="miPortfolio.imgEdu4" width="50" height="35">
-        </div>
-      </div>
-    </div>
-    
-    <p>{{miPortfolio.descrEdu4}}<br>
-       {{miPortfolio.fechaedu4}}<br>
-       {{miPortfolio.dEdu4}}<br>
-       {{miPortfolio.cont4}}<br>
-       {{miPortfolio.cargaEdu4}}<br>
-       {{miPortfolio.modEdu4}}</p>
-    
-    <div class="container px-0 text-right">
-      <div class="row justify-content-md-right">
-        <div class="col-md-auto">
-          <h3>{{miPortfolio.nombreEdu5}}</h3>
-        </div>
-        <div class="col-md-auto">
-          <img [src]="miPortfolio.imgEdu5" width="60" height="35">
-        </div>
-      </div>
-    </div>
-    
-    
-    <p>{{miPortfolio.descrEdu5}}<br>
-       {{miPortfolio.fechaedu5}}<br>
-       {{miPortfolio.dEdu5}}<br>
-       {{miPortfolio.cont5}}<br>
-       {{miPortfolio.cargaEdu5}}<br>
-       {{miPortfolio.modEdu5}}</p>
-    
-    <div class="container px-0 text-right">
-      <div class="row justify-content-md-right">
-        <div class="col-md-auto">
-          <h3>{{miPortfolio.nombreEdu6}} </h3>
-        </div>
-        <div class="col-md-auto">
-          <img [src]="miPortfolio.imgEdu6" width="70" height="45">
-        </div>
-      </div>
-    </div>
-    
-    <p>{{miPortfolio.descrEdu6}}<br>
-       {{miPortfolio.fechaedu6}}<br>
-       {{miPortfolio.dEdu6}}</p>
-    
-    
-    <div class="container px-0 text-right">
-      <div class="row justify-content-md-right">
-        <div class="col-md-auto">
-          <h3>{{miPortfolio.nombreEdu7}}</h3>
-        </div>
-        <div class="col-md-auto">
-          <img [src]="miPortfolio.imgEdu7" width="40" height="50">
-        </div>
-      </div>
-    </div>
-    
-    <p>{{miPortfolio.fechaedu7}}<br>
-       {{miPortfolio.dEdu7}} </p>
-    </div>
+</div>

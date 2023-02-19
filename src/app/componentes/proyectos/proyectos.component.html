@@ -1,28 +1,57 @@
 <div class="alert alert-success border border-dark border-3 rounded-4" role="alert">
-    <h2>{{miPortfolio.Proy}}</h2>
-    
-    <div class="container px-0 text-right">
-      <div class="row justify-content-md-right">
-        <div class="col-md-auto">
-    
-    <h3>{{miPortfolio.NombrePro}}</h3>
-    
-    </div>
-    <div class="col-md-auto">
-    <img [src]="miPortfolio.imgPro" class="portfolioCompleto" width="80" height="55">
-    </div>
-    </div>
-    </div>
-    
-    <p>{{miPortfolio.fechaProy}}<br>
-       {{miPortfolio.dpro}}<strong>{{miPortfolio.dpro2}}</strong>{{miPortfolio.dpro3}}<strong>{{miPortfolio.dpro4}}</strong>{{miPortfolio.dpro5}}</p> 
-    </div>
+  
+     <h2>Proyectos</h2>
+     
+    <div class="col-lg-2">
+    <button type="button" class="btn btn-success" routerLink="/nuevopro" *ngIf="isLogged">
+      <i class="bi bi-file-earmark-plus-fill"></i>
+      </button> 
+  </div>
+
+  <div class="col lg 1"></div>
+  <div class="col-lg-11">
+      <table class="table">
+          <tbody>
+              <tr *ngFor="let Proyectos of proyectos">
+
+                <div class="container px-0 text-right">
+                  <div class="row justify-content-md-right">
+                    <div class="col-md-auto">
+                
+                      <h3>{{Proyectos.nombreP}}</h3>
+                
+                </div>
+                <div class="col-md-auto">
+                <img src="assets/img/portfolio.jpg"class="portfolioCompleto" width="100" height="75">
+                </div>
+                </div>
+                </div>
+                  
+                      
+                      <p>{{Proyectos.descripcionP}}</p>
+                      
+
+                  <td *ngIf="isLogged">
+                          <button class="btn btn-success" routerLink="/editpro/{{Proyectos.id}}">
+                          <i class="bi bi-pencil-fill"></i></button>
+                  </td>
+                  <td *ngIf="isLogged">
+                      <button class="btn btn-success" (click)="delete(Proyectos.id)">
+                          <i class="bi bi-trash-fill"></i></button>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>
     
     <nav class="navbar border border-dark border-3 bg-success">
       <div class="container-fluid">
         <a class="navbar-brand">
-         
-          {{miPortfolio.mail}}<strong>{{miPortfolio.mail2}}</strong>
+
+          <h6>Web creada por Maximiliano Lencina | © Argentina Programa 4.0 2023</h6>
+          <h6>Entre Ríos, Argentina</h6>
+          <h6>Para comunicarte conmigo via mail:<strong>  maxilencina1985@gmail.com</strong></h6>
           
         </a>
       </div>

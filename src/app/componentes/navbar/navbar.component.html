@@ -1,58 +1,30 @@
 <nav class="navbar sticky-top border border-dark border-3 bg-success">
   <div class="container-fluid">
-    <a class="navbar-brand" [href]="miPortfolio.linkArg">
-        <img [src]="miPortfolio.argproNav" alt="" width="56" height="30" class="d-inline-block align-text-top">
-      <b>{{miPortfolio.argprograma}}</b>
+    <a class="navbar-brand" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa">
+        <img src="assets/img/argentina-programa.jpg" alt="" width="56" height="30" class="d-inline-block align-text-top">
+      <b> Argentina Programa 4.0</b>
     </a>
-      <a class="navbar-brand" [href]="miPortfolio.linkyopro">
-      <b>{{miPortfolio.yopro}}</b>
+      <a class="navbar-brand" href="https://www.argentina.gob.ar/produccion/argentina-programa/segunda-etapa">
+      <b>#YoProgramo</b>
     </a>
 
-      <a class="navbar-brand" [href]="miPortfolio.linklinke">
-        <img [src]="miPortfolio.linkNav" alt="" width="44" height="44" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="https://www.linkedin.com/in/maximiliano--lencina/">
+        <img src="assets/img/linkedin-icon.png" alt="" width="44" height="44" class="d-inline-block align-text-top">
       </a>
 
-      <a class="navbar-brand" [href]="miPortfolio.linkgit">
-        <img [src]="miPortfolio.gitNav" alt="" width="37" height="37" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="https://github.com/Max-Lencina">
+        <img src="assets/img/github-icon.png" alt="" width="37" height="37" class="d-inline-block align-text-top">
       </a>
     
-      <a class="navbar-brand" [href]="miPortfolio.linkinsta">
-        <img [src]="miPortfolio.instNav" alt="" width="51" height="51" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="https://www.instagram.com/max_lencina/">
+        <img src="assets/img/instagram-icon.png" alt="" width="53" height="53" class="d-inline-block align-text-top">
       </a>
-    
-    
-
-<button type="button" class="btn btn-success border border-dark border-2 text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"><h1>{{miPortfolio.boton}}</h1></button>
+      
+<button type="button" class="btn btn-success border border-dark border-2 text-dark"(click)="login()"*ngIf="!isLogged"><b>Login ⇨</b></button>
+<button type="button" class="btn btn-success border border-dark border-2 text-dark"(click)="onLogOut()"*ngIf="isLogged"><b>Logout ⇦</b></button>
 </div>
 </nav>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">{{miPortfolio.acceso}}</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-       </div>
-        <div class="modal-body">
-          <form>
-            <div class="input-group mb-3">
-              <div class="form-floating">
-                <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
-                <label for="floatingInputGroup1">{{miPortfolio.usuario}}</label>
-              </div>
-            </div>
-            <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-              <label for="floatingPassword">{{miPortfolio.pass}}</label>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-         <button type="button" class="btn btn-success border border-dark border-2"><b>{{miPortfolio.acept}}</b></button>
-        </div>
-      </div>
-    </div>
-   </div>
 
  
 
