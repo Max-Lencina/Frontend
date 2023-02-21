@@ -23,6 +23,7 @@ import { EditproyectoComponent } from './componentes/proyectos/editproyecto.comp
 import { EditSkillComponent } from './componentes/hys/edit-skill.component';
 import { NewSkillComponent } from './componentes/hys/new-skill.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { EditEncabezadoComponent } from './componentes/encabezado/edit-encabezado.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     NewproyectoComponent,
     EditproyectoComponent,
     EditSkillComponent,
-    NewSkillComponent
+    NewSkillComponent,
+    EditEncabezadoComponent
    
     
     
