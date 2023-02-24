@@ -25,7 +25,7 @@ const routes: Routes = [
   { path: 'nuevopro', component: NewproyectoComponent},
   { path: 'editpro/:id', component: EditproyectoComponent},
   { path: 'editencab/:id', component: EditEncabezadoComponent}
-];
+]; 
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
